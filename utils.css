@@ -2,12 +2,24 @@
     text-align: center;
 }
 .bg-red {
-    background-color: red;
+    background: red;
 }
 .margin-auto {
     margin: auto;
 }
 
-.max-width {
-    max-width: 20vw;
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.row {
+    margin: 8px 0;
 }
